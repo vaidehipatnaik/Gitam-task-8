@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: century Gothic;
+}
+ul{
+	float: left;
+	list-style-type: none;
+	width: 100%;
+	background-color: rgb(180,6,6);
+}
+ li{
+	float: left; 
+}
+li a{
+	display: block;
+	color: white;
+	font-size: medium;
+	padding: 10px;
+	text-decoration: none;
+}
+li a:hover{
+	background-color: rgb(255, 238, 0);
+}
+.active{
+    background-color: rgb(255, 238, 0);
+}
+
+/* header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
+
+.drp-ctn {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 0;
+  }
+  .drp-ctn a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: list-item;
+    text-align: left;
+  }
+  
+  .drp-ctn a:hover {
+      background-color: rgb(230, 215, 13);
+    }
+  
+  .dropdown:hover .drp-ctn {
+    display:list-item;
+  }
+
+.logo img{
+	float: left;
+	width: 700px;
+	height: none;
+}
+.logo1 img{
+	float: right;
+	width: 100px;
+	height: none;
+	padding-top: 5%;
+
+    
+}
+.logo2 img{
+	float: right;
+	width: 100px;
+	height: none;
+}
+.logo3 img{
+	float: right;
+	width: 120px;
+	height: none;
+}
+.logo4 img{
+	float: right;
+	width: 100px;
+	height: none;
+}
+
+div .add1{
+  padding-left: 3em;
+}
+.add{
+  float: left;
+  color: rgb(180, 6, 6);
+  margin-left: 5em;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(180, 6, 6);
+  color: white;
+}
+
+.footer p{
+  text-align: center;
+  font-size: 15px;
+/* }	
